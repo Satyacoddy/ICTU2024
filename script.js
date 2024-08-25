@@ -68,7 +68,7 @@ document.getElementById('submitButton').addEventListener('click', function() {
     };
 
     // URL of your Google Apps Script web app
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby4IskQAVRLiwdlFPys6WaSpMCZi0QGWG-FI94waiYzA2HplZiHCSxXip21G5hw0Rwm1Q/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxob7vkT-ym2ain33KXLQCC_p6Aq_1xk5-VnhRSbPbWtDMeLTGN65ZfJPuTreOUrQDJtA/exec';
 
     // Send form data to Google Sheets
     fetch(scriptURL, {
