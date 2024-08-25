@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICTU 2024 Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://rgipt.ac.in/ICTU-2024/assets/img/ICTU2024-Logo.png" alt="ICTU 2024 Logo" class="logo">
+            <h1>Transforming Upstream: Breakthrough Technologies and Sustainability</h1>
+            <h2>International Conference 2024 - 30th Sept to 1st Oct</h2>
+        </div>
+
+        <form id="registrationForm">
+            <h3>Personal Details</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="college">College/Company:</label>
+            <input type="text" id="college" name="college" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="button" id="nextButton">Next</button>
+        </form>
+
+        <div id="detailsForm" class="details-section">
+            <h3>Details Section</h3>
+            <div class="section">
+                <h4>Email & ID Card</h4>
+                <input type="checkbox" id="emailCheckbox" name="emailCheckbox"> Email ID<br>
+                <input type="checkbox" id="idCardCheckbox" name="idCardCheckbox"> ID Card<br>
+            </div>
+            <div class="section">
+                <h4>ICTU Kit</h4>
+                <input type="checkbox" id="kitCheckbox" name="kitCheckbox"> ICTU Kit<br>
+            </div>
+            <div class="section">
+                <h4>Accommodation Details</h4>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required><br>
+                <label for="roomNumber">Room Number:</label>
+                <input type="text" id="roomNumber" name="roomNumber" required>
+            </div>
+
+            <div class="section">
+                <button type="button" id="previousButton1">Previous</button>
+                <button type="button" id="nextButton2">Next</button>
+            </div>
+        </div>
+
+        <div id="foodForm" class="food-section">
+            <h3>Food Section</h3>
+            <label>September 30:</label><br>
+            <input type="checkbox" id="breakfast30" name="breakfast30"> Breakfast<br>
+            <input type="checkbox" id="tea30" name="tea30"> Tea<br>
+            <input type="checkbox" id="lunch30" name="lunch30"> Lunch<br>
+            <input type="checkbox" id="snacks30" name="snacks30"> Snacks<br>
+            <input type="checkbox" id="galaDinner30" name="galaDinner30"> Gala Dinner<br>
+            <label>October 1:</label><br>
+            <input type="checkbox" id="breakfast1" name="breakfast1"> Breakfast<br>
+            <input type="checkbox" id="tea1" name="tea1"> Tea<br>
+            <input type="checkbox" id="lunch1" name="lunch1"> Lunch<br>
+
+            <button type="button" id="previousButton2">Previous</button>
+            <button type="button" id="submitButton">Submit</button>
+        </div>
+
+        <div id="thankYouMessage" class="thank-you-section">
+            <h3>Thank You!</h3>
+            <p>Your registration for ICTU 2024 is confirmed.</p>
+
+             <!-- Replace with the actual image URL -->
+
+            <div id="developerInfo" class="developer-section">
+                <h3>Webpage Created By</h3>
+                <img src="images/developer.jpg" alt="Developer Image" class="developer-image">
+                <p><strong>Name:</strong> Satyajeet Kumar</p>
+                <p><strong>Post:</strong> Event Manager</p>
+                <p><strong>Institution:</strong> Rajiv Gandhi Institute of Petroleum Technology</p>
+                <p><strong>Contact:</strong> 9142688746</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
